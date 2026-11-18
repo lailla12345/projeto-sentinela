@@ -1,0 +1,87 @@
+
+body {
+    height: 100vh;
+    background-image: url(/videoframe_90045.png);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+#maior {
+    background-color: rgba(255, 255, 255, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    box-shadow: 0px 30px 60px rgba(90, 0, 20, 0.25);
+    backdrop-filter: blur(10px);
+    padding: 13px;
+}
+
+#titulo {
+    background-color: rgba(145, 25, 55, 0.88);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(90, 0, 20, 0.3);
+    color: white;
+}
+
+#paba {
+    background-color: rgba(255, 245, 247, 0.9);
+    border: 1px solid rgba(145, 25, 55, 0.2);
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(90, 0, 20, 0.2);
+}
+
+#saba {
+    background-color: rgba(255, 245, 247, 0.9);
+    border: 1px solid rgba(145, 25, 55, 0.2);
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(90, 0, 20, 0.2);
+}
+
+input {
+    background: rgba(220, 120, 140, 0.2);
+    padding: 4px;
+    border-radius: 20px;
+    border: 1px solid rgba(145, 25, 55, 0.2);
+    outline: none;
+    transition: background-color 0.2s;
+}
+
+input:hover {
+    background-color: rgba(220, 120, 140, 0.4);
+}
+
+#finalizar {
+    background-color: #8B1938;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    transition: scale 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+#finalizar:hover {
+    scale: 1.08;
+    color: #FFB6C1;
+}
+
+#legenda2 {
+    background: rgba(255, 245, 247, 0.9);
+    border-radius: 6px;
+    border: 1px solid rgba(145, 25, 55, 0.2);
+    outline: none;
+    padding: 3px;
+}
+
+#legenda3 {
+    background: rgba(255, 245, 247, 0.9);
+    border-radius: 6px;
+    border: 1px solid rgba(145, 25, 55, 0.2);
+    outline: none;
+    padding: 3px;
+}

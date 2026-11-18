@@ -1,0 +1,119 @@
+
+body {
+    background-image: url(/videoframe_90045.png);
+    height: 150vh;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: rgba(255, 245, 247, 0.35);
+    padding: 50px;
+    border-radius: 60px;
+    backdrop-filter: blur(7px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 30px;
+}
+
+h2 {
+    font-weight: bold;
+    color: #69152D;
+}
+
+.historico {
+    background: rgba(255, 245, 247, 0.9);
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-left: 5px solid #8B1938;
+}
+
+.card p-3 shadow {
+    color: #69152D;
+    text-align: center;
+    background-color: rgba(255, 245, 247, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    box-shadow: 0px 30px 60px rgba(90, 0, 20, 0.3);
+    backdrop-filter: blur(7px);
+    padding: 13px;
+}
+
+.text-center {
+    color: #69152D;
+    text-align: center;
+    background-color: rgba(255, 245, 247, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    box-shadow: 0px 30px 60px rgba(90, 0, 20, 0.3);
+    backdrop-filter: blur(7px);
+    padding: 20px;
+}
+
+.btn {
+    color: white;
+    background-color: #8B1938;
+    border-radius: 30px;
+    border: none;
+    transition: scale 0.2s, color 0.2s, background-color 0.2s;
+    padding: 15px;
+}
+
+.btn:hover {
+    scale: 1.1;
+    background-color: #DC788C;
+    color: white;
+}
+
+.card.p-4.shadow.mt-4 {
+    border-radius: 30px;
+}
+
+.form-control {
+    border-radius: 15px;
+    border: 1px solid rgba(139, 25, 56, 0.2);
+    background-color: rgba(220, 120, 140, 0.2);
+    transition: background-color 0.2s;
+}
+
+.form-control:hover {
+    background-color: rgba(220, 120, 140, 0.4);
+}
+
+.form-control:focus {
+    background-color: rgba(139, 25, 56, 0.3);
+    color: #69152D;
+}
+
+.form-select,
+.form-select option {
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(255, 245, 247, 0.8);
+    transition: background-color 0.2s;
+}
+
+.form-select:hover {
+    background-color: rgba(220, 120, 140, 0.3);
+}
+
+.form-select option:hover {
+    background-color: #DC788C;
+}
+
+.alert {
+    border-radius: 20px;
+    background-color: rgba(255, 245, 247, 0.9);
+    border-color: rgba(139, 25, 56, 0.2);
+    color: #69152D;
+}
